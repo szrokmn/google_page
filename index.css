@@ -69,3 +69,61 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+.searchbar{
+    padding-top: 20px;
+    margin-left: 60px;
+    text-align: center;
+}
+#search{
+    font-size: 16px;
+    height: 45px ;
+    width: 500px;
+    border-radius: 25px;
+    border: 1px solid lightgray;
+    padding: 3px;
+    padding-left: 50px ;
+}
+#search:hover{
+    box-shadow: 3px 3px 5px lightgray;
+}
+#search:focus{
+    outline: 2rem;
+}
+input{
+    width: 200px;
+}
+#scope{
+    position: relative;
+    right: 480px;
+    top: 5px;
+    opacity: 0.5;
+}
+#mic{
+    position: relative;
+    right: 55px;
+    top: 5px;
+    height: 20px; 
+}
+.buttons{
+    text-align: center;
+    padding: 30px;
+}
+.btn{
+    border: hidden;
+    height: 36px;
+    width: 120px;
+    color: #5f6368;
+    margin-right: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    /* cursor: pointer; */
+}
+.btn:hover{
+    color: black;
+    border: 1px solid lightgray;
+    box-shadow: 0.7px 0.7px 0.7px lightgray;
+    cursor: pointer;
+}
+#paragraf{
+    font-size: small ;
+}
